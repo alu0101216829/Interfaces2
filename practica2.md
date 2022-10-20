@@ -3,6 +3,7 @@
 #### Ejercicio 1:
 
 - **Apartado a:** Ninguno de los objetos, tanto el cubo como la esfera cae. Ambos se quedan flotando.
+- ![Gif](gifs/apartadoA.mp4)
 - **Apartado b:** En este apartado, el cubo se queda flotando, y por el contrario la esfera cae, chocando con el plano.
 - **Apartado c:** Ambos objetos caen y chocan contra el plano.
 - **Apartado d:** En este caso si ponemos el cubo debajo de la esdera, el cubo sufre una deformacion ya que la esfera lo aplasta. Luego la esfera rebota y cae para otro lado.
