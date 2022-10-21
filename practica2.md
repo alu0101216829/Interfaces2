@@ -4,16 +4,16 @@
 
 - **Apartado a:** Ninguno de los objetos, tanto el cubo como la esfera cae. Ambos se quedan flotando.
 
-![Gif](gifs/apartadoA.mp4)
+![Gif](gifs/apartadoA.gif)
 - **Apartado b:** En este apartado, el cubo se queda flotando, y por el contrario la esfera cae, chocando con el plano.
 
-![Gif](gifs/apartadoB.mp4)
+![Gif](gifs/apartadoB.gif)
 - **Apartado c:** Ambos objetos caen y chocan contra el plano.
 
-![Gif](gifs/apartadoC.mp4)
+![Gif](gifs/apartadoC.gif)
 - **Apartado d:** En este caso si ponemos el cubo debajo de la esdera, el cubo sufre una deformacion ya que la esfera lo aplasta. Luego la esfera rebota y cae para otro lado.
 
-![Gif](gifs/apartadoD.mp4)
+![Gif](gifs/apartadoD.gif)
 - **Apartado e:** He añadido un pequeño script que nos mande un mensaje cuando colisiona, y es el siguiente
 ```c#
 void OnTriggerEnter() 
@@ -24,11 +24,12 @@ void OnTriggerEnter()
     
 Además el cubo se queda estático y la esfera cae atravesando al mismo. En el momento del impacto nos sale el mensaje en la terminal que dice **`Is trigger`**.
 
-![Gif](gifs/apartadoE.mp4)
+![Gif](gifs/apartadoE.gif)
 - **Apartado f:** Ambos caen pero la esfera se detiene al impactar con el plano, el cubo, por su parte, atraviesa el plano el plano ya que pierde sus colisiones a pesar de tener físicas. Por otra parte cuando el cubo toca el plano nos vuelve a saltar el mensaje **`Is trigger`**.
 
-![Gif](gifs/apartadoF.mp4)
-![Gif](gifs/apartadoG.mp4)
+![Gif](gifs/apartadoF.gif)
+
+![Gif](gifs/apartadoG.gif)
 
 ---
 
