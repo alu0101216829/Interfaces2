@@ -100,7 +100,7 @@ void Update()
 
 - **Apartado d:** Simplemente se ha cambiado el eje Z por el eje Y al crear los vectores de `transform`
 
-![Gif](gifs/Ejer2D.mp4)
+![Gif](gifs/Ejer2D.gif)
 
 ---
 
@@ -163,7 +163,7 @@ public void pushCylinder(GameObject player) {
 ```
 *cilindroB.cs*
 
-![Gif](gifs/Ejer3c.mp4)
+![Gif](gifs/Ejer3c.gif)
 
 - **Apartado d:** El tercer elemento ha sido una  esfera ya que la necesitaremos para el último apartado. Estaremos atentos por si se toca alguna de las teclas aplicar el movimiento tal y como se indica en el enunciado, y detectará las colisiones con el fichero `trigger.cs`, que cuando detecte una colisión nos mandara un mensaje por la terminal.
 ```c#
@@ -197,7 +197,7 @@ void OnColissionEnter()
 ```
 *trigger.cs*
 
-![Gif](gifs/Ejer3d.mp4)
+![Gif](gifs/Ejer3d.gif)
 
 - **Apartado e:** Por ultimo se ha creado el fichero `powerUp.cs` que estará atento a que los objetos con el tag **Player** y con el tag **Sphere** no esten en su rango, en caso de que player este en su rango se invocara la funcion `minim()` del fichero `characterController.cs`,  que hará al jugador, más pequeño. En caso de que Sphere sea el que este en su rango se invocará la función `maxim()` del fichero `characterController.cs` que hará al jugador más grande.
 
